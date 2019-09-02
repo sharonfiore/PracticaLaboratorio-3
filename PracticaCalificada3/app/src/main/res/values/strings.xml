@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PIZZERIA PIZZETO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Tienda">Pizzería Pizzeto</string>
+    <string name="TituloDetalle1">Pizza Americana</string>
+    <string name="Detalle1">• Descripción: \n Queso Mozzarella + Jamón + Un toque de Orégano.
+        \n • Tamaño/Precio: \n Personal S/.15.00 \n Grande S/.24.00 \n Familiar S/.35.00 \n Enorme S/.40.00 </string>
+
+    <string name="TituloDetalle2">Pizza Hawaiana</string>
+    <string name="Detalle2">• Descripción: \n Queso Mozzarella + Piña + Jamón.
+        \n • Tamaño/Precio: \n Personal S/.17.00 \n Grande S/.27.00 \n Familiar S/.41.00 \n Enorme S/.45.00 </string>
+
+    <string name="TituloDetalle3">Pizza Argentina</string>
+    <string name="Detalle3">• Descripción: \n Queso Mozzarella , chorizo en rodajas.
+        \n • Tamaño/Precio: \n Personal S/.15.00 \n Grande S/.23.00 \n Familiar S/.34.00 \n Enorme S/.40.00 </string>
+
+    <string name="TituloDetalle4">Pizza Alemana</string>
+    <string name="Detalle4">• Descripción: \n Jamón, tocino, piña y queso mozarella.
+        \n • Tamaño/Precio: \n Personal S/.20.00 \n Grande S/.35.00 \n Familiar S/.46.00 \n Enorme S/.55.00 </string>
+
+    <string name="TituloDetalle6">Pizza Española</string>
+    <string name="Detalle6">• Descripción: \n Queso Mozzarella , chorizo en rodajas y aceitunas.
+        \n • Tamaño/Precio: \n Personal S/.17.00 \n Grande S/.27.00 \n Familiar S/.41.00 \n Enorme S/.45.00 </string>
+
+
+    <string name="pizza">Nuestras opciones de Pizza</string>
+</resources>

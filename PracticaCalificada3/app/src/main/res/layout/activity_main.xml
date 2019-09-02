@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="110sp"
+        android:layout_height="match_parent"
+        android:background="@color/Gris"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:text="@string/pizza"
+            android:textColor="#EEFFC801"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_pizza1"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:background="#FFEB3B"
+            android:text="@string/TituloDetalle1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btn_pizza2"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:background="#FFEB3B"
+            android:text="@string/TituloDetalle2"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btn_pizza3"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:background="#FFEB3B"
+            android:text="@string/TituloDetalle3"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/btn_pizza4"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:background="#FFEB3B"
+            android:text="@string/TituloDetalle4"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btn_pizza6"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="#FFEB3B"
+            android:text="@string/TituloDetalle6"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/DetalleFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>
